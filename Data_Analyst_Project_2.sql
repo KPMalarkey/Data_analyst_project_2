@@ -27,3 +27,4 @@ ALTER TABLE employees
 	DROP COLUMN firstName,
     DROP COLUMN lastName;
 SELECT * FROM employees;
+SET SQL_SAFE_UPDATES = 1;
